@@ -119,24 +119,6 @@ def problem2(line1, line2, thickness, win):
     #          Tests have been written for you (above).
     #   See the IMPORTANT NOTE just above the DEF line above.
     # -------------------------------------------------------------------------
-    # circle.attach_to(window)
-    # rectangle.attach_to(window)
-    # window.render()
-    # window.continue_on_mouse_click()
-    #
-    # start = rectangle.get_upper_right_corner()
-    # end = rectangle.get_lower_left_corner()
-    #
-    # line = rg.Line(start, end)
-    # line.attach_to(window)
-    # line.arrow = 'last'
-    # window.render(0.5)
-    # window.continue_on_mouse_click()
-    #
-    # circle.fill_color = rectangle.outline_color
-    # circle.attach_to(window)
-    # window.render(0.5)
-    # window.continue_on_mouse_click()
 
     # Step One
     line1.attach_to(win)
