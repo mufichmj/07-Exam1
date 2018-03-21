@@ -216,7 +216,7 @@ def problem1a(a, b, threshold):
 def run_test_problem1b():
     """ Tests the   problem1b   function. """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement at least 4 tests of the problem1b function.
+    # DONE: 4. Implement at least 4 tests of the problem1b function.
     #   Note that you CANNOT use  problem1b(1)  or  problem1b(2)  as tests, per
     #   the specification below that says that the argument must be at least 3.
     # -------------------------------------------------------------------------
@@ -232,26 +232,26 @@ def run_test_problem1b():
     print('  Test 1 Expected:', expected)
     print('  Actual:  ', answer)
 
-    # # Test 2:
-    # expected =
-    # answer = problem1b(2)
-    # print()
-    # print('  Test 2 Expected:', expected)
-    # print('  Actual:  ', answer)
-    #
-    # # Test 3:
-    # expected =
-    # answer = problem1b(3)
-    # print()
-    # print('  Test 3 Expected:', expected)
-    # print('  Actual:  ', answer)
-    #
-    # # Test 4:
-    # expected =
-    # answer = problem1b(1)
-    # print()
-    # print('  Test 4 Expected:', expected)
-    # print('  Actual:  ', answer)
+    # Test 2:
+    expected = 2
+    answer = problem1b(2)
+    print()
+    print('  Test 2 Expected:', expected)
+    print('  Actual:  ', answer)
+
+    # Test 3:
+    expected = 3
+    answer = problem1b(3)
+    print()
+    print('  Test 3 Expected:', expected)
+    print('  Actual:  ', answer)
+
+    # Test 4:
+    expected = 1
+    answer = problem1b(1)
+    print()
+    print('  Test 4 Expected:', expected)
+    print('  Actual:  ', answer)
 
 ###############################################################################
 # IMPORTANT note: in the following problem,
@@ -273,7 +273,7 @@ def problem1b(r):
            and the sum of the above numbers is 682
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #          See the IMPORTANT NOTE just before the DEF above.
     # -------------------------------------------------------------------------
     sum = 0
