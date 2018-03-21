@@ -13,7 +13,7 @@ def main():
 
 
 ###############################################################################
-# TODO: 2.  READ the doc-string for the   product_of_digits   function below.
+# DONE: 2.  READ the doc-string for the   product_of_digits   function below.
 #           Ask your instructor for help if you do not understand it.
 #
 #   Once you are confident that you understand the doc-string
@@ -204,7 +204,7 @@ def problem1a(a, b, threshold):
     #     arguments, don't do that.  You are only allowed to use the
     #     1-argument version of the RANGE statement to solve this problem.
     # -------------------------------------------------------------------------
-   
+
     sum = 0
     for k in range(b - a + 1):
         number = (a + k)
