@@ -2,8 +2,8 @@
 Exam 1, problem 1.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Mariah Mufich.  March 2018.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -196,7 +196,7 @@ def problem1a(a, b, threshold):
               returns 109 + 110 + 111 + 112 + 120 + 121 + 130,  which is 813
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #          Tests have been written for you (above).
     #
     # IMPORTANT NOTE
@@ -204,7 +204,21 @@ def problem1a(a, b, threshold):
     #     arguments, don't do that.  You are only allowed to use the
     #     1-argument version of the RANGE statement to solve this problem.
     # -------------------------------------------------------------------------
+    # sum = 0
+    # product = 1
+    # for k in range(n - 2 + 1):
+    #     number = (2 + k)
+    #     if is_prime(number) == True:
+    #         product = product * (number)
+    # sum = sum_of_digits(product)
+    # return sum
+    sum = 0
+    for k in range(b - a + 1):
+        number = (a + k)
+        if product_of_digits(number) < threshold:
+            sum = sum + (number)
 
+    return sum
 
 def run_test_problem1b():
     """ Tests the   problem1b   function. """
