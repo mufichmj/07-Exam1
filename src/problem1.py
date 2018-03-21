@@ -204,14 +204,7 @@ def problem1a(a, b, threshold):
     #     arguments, don't do that.  You are only allowed to use the
     #     1-argument version of the RANGE statement to solve this problem.
     # -------------------------------------------------------------------------
-    # sum = 0
-    # product = 1
-    # for k in range(n - 2 + 1):
-    #     number = (2 + k)
-    #     if is_prime(number) == True:
-    #         product = product * (number)
-    # sum = sum_of_digits(product)
-    # return sum
+   
     sum = 0
     for k in range(b - a + 1):
         number = (a + k)
