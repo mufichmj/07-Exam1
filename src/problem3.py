@@ -101,10 +101,10 @@ def problem3(rect, n, window):
     rect.attach_to(window)
     # Step Two
     for k in range(n):
-        x = rect.get_lower_right_corner().x + k
-        y = rect.get_lower_right_corner().y + k
-        center = rg.Point(x, y)
         radius = rect.get_height() * .5
+        x = rect.get_lower_right_corner().x + radius*k
+        y = rect.get_lower_right_corner().y + radius*k
+        center = rg.Point(x, y)
         circle = rg.Circle(center, radius)
 
         circle.attach_to(window)
