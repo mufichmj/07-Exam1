@@ -225,6 +225,33 @@ def run_test_problem1b():
     print('Testing the   problem1b   function:')
     print('--------------------------------------------------')
 
+    # Test 1:
+    expected = 682
+    answer = problem1b(8)
+    print()
+    print('  Test 1 Expected:', expected)
+    print('  Actual:  ', answer)
+
+    # # Test 2:
+    # expected =
+    # answer = problem1b(2)
+    # print()
+    # print('  Test 2 Expected:', expected)
+    # print('  Actual:  ', answer)
+    #
+    # # Test 3:
+    # expected =
+    # answer = problem1b(3)
+    # print()
+    # print('  Test 3 Expected:', expected)
+    # print('  Actual:  ', answer)
+    #
+    # # Test 4:
+    # expected =
+    # answer = problem1b(1)
+    # print()
+    # print('  Test 4 Expected:', expected)
+    # print('  Actual:  ', answer)
 
 ###############################################################################
 # IMPORTANT note: in the following problem,
@@ -249,7 +276,13 @@ def problem1b(r):
     # TODO: 5. Implement and test this function.
     #          See the IMPORTANT NOTE just before the DEF above.
     # -------------------------------------------------------------------------
+    sum = 0
+    for k in range((r**2) - r + 1):
+        number = (r + k)
+        if product_of_digits(number) <= r:
+            sum = sum + (number)
 
+    return sum
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
