@@ -101,12 +101,13 @@ def problem3(rect, n, window):
     rect.attach_to(window)
     # Step Two
     for k in range(n):
-    center = rg.Point(rect.get_lower_right_corner().x, rect.get_upper_right_corner().y)
-    radius = rect.get_height() * .5
-    circle = rg.Circle(center, radius)
+        x = rect.get_lower_right_corner().x + k
+        y = rect.get_lower_right_corner().y + k
+        center = rg.Point(x, y)
+        radius = rect.get_height() * .5
+        circle = rg.Circle(center, radius)
 
-
-    circle.attach_to(window)
+        circle.attach_to(window)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
