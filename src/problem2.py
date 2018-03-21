@@ -149,7 +149,7 @@ def problem2(line1, line2, thickness, win):
     #Step Three
     rectangle.outline_thickness = thickness
     #Step Four
-    
+    rectangle.outline_color = 'Green'
 
 
 # -----------------------------------------------------------------------------
