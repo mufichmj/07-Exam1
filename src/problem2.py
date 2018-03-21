@@ -146,6 +146,11 @@ def problem2(line1, line2, thickness, win):
     corner_2 = line2.get_midpoint()
     rectangle = rg.Rectangle(corner_1, corner_2)
     rectangle.attach_to(win)
+    #Step Three
+    rectangle.outline_thickness = thickness
+    #Step Four
+    
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
