@@ -105,6 +105,7 @@ def problem3(rect, n, window):
     radius = rect.get_height() * .5
     circle = rg.Circle(center, radius)
 
+
     circle.attach_to(window)
 
 # -----------------------------------------------------------------------------
