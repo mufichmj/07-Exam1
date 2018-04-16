@@ -93,7 +93,7 @@ def problem3(rect, n, window):
       :type window:  rg.RoseWindow
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function, TESTING each step as you go.
+    # DONE: 2. Implement and test this function, TESTING each step as you go.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
 
@@ -102,8 +102,8 @@ def problem3(rect, n, window):
     # Step Two
     for k in range(n):
         radius = rect.get_height() * .5
-        x = rect.get_lower_right_corner().x + radius*k
-        y = rect.get_lower_right_corner().y + radius*k
+        x = rect.get_lower_right_corner().x + 1.4 * radius*k
+        y = rect.get_lower_right_corner().y + 1.4 * radius*k
         center = rg.Point(x, y)
         circle = rg.Circle(center, radius)
 
